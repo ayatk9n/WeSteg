@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+AppDir/
+*.AppImage
+*.egg-info/
+.eggs/
+
+# Environment variables & secrets
+.env
+.env.*
+*.pem
+*.key
+
+# IDE & OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary steganography & test outputs
+.pytest_cache/
+.westeg_*
+*_stego.*
+*_meta.*
